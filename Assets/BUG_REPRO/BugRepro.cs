@@ -29,7 +29,7 @@ public class BugRepro : MonoBehaviour
         var body = Instantiate(Body, transform);
         Bind(body);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         defaultHead.SetActive(false);
 
         yield return new WaitForSeconds(1f);
